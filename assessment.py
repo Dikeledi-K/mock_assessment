@@ -4,7 +4,6 @@ You must git add, git commit, and git push your work regularly.
 Read the requirements carefully.
 Each function should handle edge cases and follow best practices.
 Use print statements to test before submitting.'''
-
 #Problem 1: Student Score Analysis (35 Marks)
 '''Write a function analyze_scores(students) that takes a list of student dictionaries and returns a dictionary containing:
 
@@ -26,6 +25,8 @@ students = [
     "highest_scorer": "Charlie",
     "passed_students": ["Alice", "Charlie", "Derek"]
 }'''
+def analyze_scores():
+    pass
 
 
 #Problem 2: Product Stock Tracker (30 Marks)
@@ -43,7 +44,8 @@ sold_items = ["apple", "banana", "apple", "grape", "orange", "banana"]
 
 🔹 Expected Output:
 {"apple": 8, "banana": 3, "orange": 7}'''
-
+def update_stock():
+    pass
 
 #Problem 3: Employee Salary Bonus (25 Marks)
 '''Write a function calculate_bonus(employees, min_salary, bonus_percentage) that:
@@ -60,3 +62,5 @@ bonus_percentage = 10  # 10% increase
 
 🔹 Expected Output:
 {"Alice": 4000, "Bob": 2750, "Charlie": 3300, "Derek": 4500}'''
+def calculate_bonus():
+    pass
